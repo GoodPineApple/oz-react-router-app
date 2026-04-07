@@ -38,7 +38,7 @@ const Users = () => {
   };
 
   return (
-    <div>
+    <div className="bg-gray-100 p-4">
       <h1>Users</h1>
       <div>
         {users.map((user) => (
