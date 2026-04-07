@@ -29,7 +29,7 @@ const Users = () => {
 
   const goDetail = (user) => {
     // 사용자가 goDetail 버튼을 눌렀을 때 동작해야할 추가적인 로직 구현
-    // 예 : GA 트래킹 로직, 유효성 검증 등
+    // 예 : GA 이벤트 트래킹 로직, 유효성 검증 등
     if (user.level === "Basic") {
       alert("Basic 레벨은 보기 불가능합니다.");
       return;
